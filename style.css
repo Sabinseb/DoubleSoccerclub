@@ -1,0 +1,66 @@
+body {
+    background-color: white;
+    color: black;
+    font-family: Arial, sans-serif;
+  }
+  
+  #header {
+    background-color: black;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  #header nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  #header nav a:hover {
+    color: maroon;
+  }
+  
+  #team-image {
+    display: block;
+    width: 60%;
+    margin: 20px auto;
+  }
+  
+  #team-description {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  #footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 5px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .form-group input, .form-group textarea {
+    padding: 10px;
+    font-size: 16px;
+  }
+  
